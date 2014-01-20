@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ObsCrianca1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txtObservações">Observações</string>
+    <string name="btCTOS">CTOS</string>
+    <string name="btAES">AES</string>
+    <string name="btCIS">CIS</string>
+    <string name="btSYNC">SYNC</string>
+
+
+    <string name="edtEscola">Escola</string>
+    <string name="edtDataNascimento">Data Nascimento</string>
+    <string name="edtNome">Nome</string>
+    <string name="edtIdade">Idade</string>
+    <string name="txtSexo">Sexo</string>
+    <string name="rbtMasculino">Masculino</string>
+    <string name="rbtFeminino">Feminino</string>
+    <string name="edtObservador">Observador</string>
+    <string name="edtData">Data</string>
+    <string name="edtHora">Hora</string>
+    <string name="edtNúmerodecrianças">Número de crianças</string>
+    <string name="edtTotaldecrianças">Total de crianças</string>
+    <string name="edtNúmerodeadultos">Número de adultos</string>
+    <string name="edtAtividades">Atividades</string>
+    <string name="rbtManhã">Manhã</string>
+    <string name="rbtTarde">Tarde</string>
+
+
+    //ctos//
+
+    <string name="tvNiveldeiniciativa"> Nível de iniciativa</string>
+    <!--<string name="rbt1">1</string>
+    <string name="rbt2">2</string>
+    <string name="rbt3">3</string>
+    <string name="rbt4">4</string>-->
+
+    <string name="iniciativa_prompt">  Nível de iniciativa </string>
+    <string-array name="iniciativa_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="tvGrupo"> Grupo</string>
+    <!--<string name="rbtGG">GG</string>
+    <string name="rbtPG">PG</string>
+    <string name="rbtP">P</string>
+    <string name="rbtI">I</string>-->
+
+    <string name="grupo_prompt">  Grupo </string>
+    <string-array name="grupo_array">
+        <item>GG</item>
+        <item>PG</item>
+        <item>P</item>
+        <item>I</item>
+    </string-array>
+
+
+    <string name="tvInteração"> Interação</string>
+
+
+    <string name="tvNíveldeEnvolvimento"> Nível de Envolvimento</string>
+    <!--<string name="rbt1">1</string>
+    <string name="rbt2">2</string>
+    <string name="rbt3">3</string>
+    <string name="rbt4">4</string>
+    <string name="rbt5">5</string>-->
+
+    <string name="envolvimento_prompt">  Grupo </string>
+    <string-array name="envolvimento_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    <string name="tvExperiênciasdeaprendizagem"> Experiências de aprendizagem</string>
+    <!--<string name="rbtFPS">FPS</string>
+    <string name="rbtEP">EP</string>
+    <string name="rbtED">ED</string>
+    <string name="rbtEMus">EMus</string>
+    <string name="rbtLING">LING</string>
+    <string name="rbtMAT">MAT</string>
+    <string name="rbtCM">CM</string>
+    <string name="rbtEMot">EMot</string>-->
+
+    <string name="aprendizagem_prompt">  Grupo </string>
+    <string-array name="aprendizagem_array">
+        <item>FPS</item>
+        <item>EP</item>
+        <item>ED</item>
+        <item>EMus</item>
+        <item>LING</item>
+        <item>MAT</item>
+        <item>CM</item>
+        <item>EMot</item>
+    </string-array>
+
+
+
+    <string name="edtNomedoAdulto">Nome do Adulto</string>
+    <string name="edtTotalSED">Total SED</string>
+
+    <string name="tvSensibilidade"> Sensibilidade</string>
+
+    <string name="rbtND"> ND</string>
+
+    <string name="tvEstimulação"> Estimulação</string>
+
+    <string name="tvAutonomia"> Autonomia</string>
+
+    <string name="btRetroceder"> Retroceder </string>
+
+    <string name="edtTotaldeadultos">Total de adultos</string>
+
+
+    //aes//
+
+    <string name="sensibilidade_prompt"> nível de sensibilidade</string>
+    <string-array name="sensibilidade_array">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>ND</item>
+    </string-array>
+
+    <string name="estimulação_prompt"> nível de estimulação</string>
+    <string-array name="estimulação_array">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>ND</item>
+    </string-array>
+
+    <string name="autonomia_prompt"> nível de autonomia</string>
+    <string-array name="autonomia_array">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>ND</item>
+    </string-array>
+
+
+    <string name="btOK"> OK </string>
+
+    <string name="edtParticipação"> Participação em atividades e projetos </string>
+
+
+
+</resources>

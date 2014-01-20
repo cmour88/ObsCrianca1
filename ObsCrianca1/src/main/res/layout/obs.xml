@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/txtObservações" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btAdd"
+        android:background="@android:drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btCTOS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="btCTOS_click"
+            android:text="@string/btCTOS"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btAES"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="btAES_click"
+            android:text="@string/btAES"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btCIS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="btCIS_click"
+            android:text="@string/btCIS"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btSync"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="btSync_click"
+            android:text="@string/btSYNC"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
